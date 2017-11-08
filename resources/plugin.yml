@@ -1,0 +1,6 @@
+name: AutoShutdown
+authors: [Hepolite]
+main: in.eq3.autoshutdown.AutoShutdownPlugin
+version: 1.0.0
+description: >
+             Handles shutting down the server every now and then

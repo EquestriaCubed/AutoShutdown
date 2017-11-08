@@ -1,0 +1,30 @@
+
+# Whether the plugin should automatically shut the server down or not
+AutoShutdown: true
+
+# The time of the day when the server should automatically shut down
+# This should be in a 24-hour clock format, running from 00:00:00 to 23:59:59
+# The time is given as server local time (obtained from computer clock)
+ShutdownTime: "12:00:00"
+
+# Messages that the server displays to all online players before shutting down
+# The messages are specified on the format "time (seconds): message"
+# To disable all messages, set the setting to "ShutdownMessages: []"
+# These message support format codes using the & symbol
+ShutdownMessages:
+  86400: "&bThe server will automatically shut down at the scheduled time!"
+  3600: "&cThe server will automatically restart in &660&c minutes"
+  900: "&cThe server will automatically restart in &615&c minutes"
+  300: "&cThe server will automatically restart in &65&c minutes"
+  60: "&cThe server will automatically restart in &61&c minute"
+  15: "&cRestarting in &615&c seconds..."
+  5: "&cRestarting in &65&c..."
+  4: "&cRestarting in &64&c..."
+  3: "&cRestarting in &63&c..."
+  2: "&cRestarting in &62&c..."
+  1: "&cRestarting in &61&c..."
+  0: "&cRestarting &6now&c!"
+
+# The message the will be shown to all online players when the server shuts down
+# This messages does not support format codes
+KickMessage: "The server is restarting"
